@@ -21,5 +21,14 @@ commands, hooks, and agents that improve the daily workflow, not just demos.
   learns to project memory so the same subsystem never gets re-explored from
   zero. Invoke with a scoped brief — "map the notification subsystem" — not
   "understand everything."
+- **[`skills/plan-feature`](skills/plan-feature/)** — turns "I want to build X"
+  into a written spec an agent can execute against without drifting. Grounds
+  brownfield work in `codebase-mapper`'s cited output (and reaches for
+  LSP/semantic-indexing MCP tools directly for its own spot-checks), surfaces
+  its assumptions before drafting so wrong premises get caught at the cheapest
+  moment, drafts against a baked-in six-section template with checkable
+  Given/When/Then acceptance criteria (numbers, not adjectives), breaks work
+  into small dependency-ordered tasks, and gates everything behind explicit
+  human approval before implementation starts.
 
 This list grows as each topic produces something worth keeping.
